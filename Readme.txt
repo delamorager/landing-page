@@ -1,0 +1,1 @@
+Layout of a static website to have as a reference what the simplest jobs of this type that are carried out are like.

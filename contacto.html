@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Germán de la Mora | Plantilla Web Pages</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/general.css" rel="stylesheet">
+    <link href="css/contacto.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Restaurante</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="menu.html">Menú</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="informacion-reservas.html">Información y Reservas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Sección de Contacto -->
+    <section id="contacto" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2 class="mb-4" style="color: #1e4072;">Contacto</h2>
+                    <p>Para más información o consultas, no dudes en ponerte en contacto con nosotros a través del
+                        siguiente formulario o visitándonos en nuestra dirección:</p>
+                    <ul class="list-unstyled">
+                        <li><strong>Dirección:</strong> Calle Ejemplo, Ciudad, País</li>
+                        <li><strong>Teléfono:</strong> +123 456 789</li>
+                    </ul>
+                    <div class="mt-4">
+                        <!-- Redes Sociales -->
+                        <a href="#" class="text-dark mx-2"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-dark mx-2"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-dark mx-2"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <!-- Formulario de Contacto -->
+                    <form id="formulario-contacto" action="#" method="post">
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="nombre" placeholder="Nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" name="email" placeholder="Correo Electrónico"
+                                required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="asunto" placeholder="Asunto" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" name="mensaje" rows="4" placeholder="Mensaje"
+                                required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pie de Página -->
+    <footer class="bg-dark text-white mt-5 py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p><strong>Restaurante</strong></p>
+                    <p>Dirección: Calle Ejemplo, Ciudad, País</p>
+                    <p>Teléfono: +123 456 789</p>
+                </div>
+                <div class="col-md-6 text-right">
+                    <a href="#" class="text-white mx-2"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="text-white mx-2"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="text-white mx-2"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="https://kit.fontawesome.com/c2d935188e.js" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="js/general.js"></script>
+        <script src="js/index.js"></script>
+    </footer>
+</body>
+
+</html>

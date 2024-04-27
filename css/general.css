@@ -1,0 +1,88 @@
+/* Estilos Generales */
+html{
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4; /* Color de fondo claro */
+}
+
+.container {
+    max-width: 1200px; /* Ancho máximo del contenedor */
+}
+
+/* Estilos Navbar */
+.navbar {
+    background-color: #1e4072; /* Azul oscuro mediterráneo */
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+    color: #ffffff; /* Texto blanco */
+}
+
+/* Estilos Sección de Inicio */
+#inicio {
+    background-color: #ffffff; /* Fondo blanco */
+}
+
+#inicio h1.display-4, #inicio p.lead {
+    color: #1e4072; /* Texto azul oscuro mediterráneo */
+}
+
+/* Estilos Sección Sobre Nosotros */
+#inicio .container:nth-child(2) {
+    background-color: #f9f9f9; /* Fondo gris claro */
+    padding: 30px;
+    margin-top: 50px;
+}
+
+/* Estilos Sección Especialidades del Chef */
+#inicio .container:nth-child(3) {
+    margin-top: 50px;
+}
+
+/* Estilos Sección Especialidades del Chef */
+.card-deck .card {
+    border: none; /* Sin borde */
+    border-radius: 0; /* Sin bordes redondeados */
+    overflow: hidden; /* Ocultar contenido adicional */
+    position: relative; /* Posición relativa */
+}
+
+.card-deck .card img {
+    height: 300px; /* Altura fija para las imágenes */
+    object-fit: cover; /* Ajustar imagen */
+    transition: transform 0.3s ease; /* Transición suave */
+}
+
+.card-deck .card:hover img {
+    transform: scale(1.1); /* Aumentar tamaño al pasar el mouse */
+}
+
+.card-deck .card .card-body {
+    background-color: #ffffff; /* Fondo blanco */
+    position: absolute; /* Posición absoluta */
+    bottom: 0; /* Alinear al fondo */
+    left: 0; /* Alinear a la izquierda */
+    width: 100%; /* Ancho completo */
+    padding: 15px; /* Espaciado interno */
+    opacity: 0; /* Ocultar inicialmente */
+    transition: opacity 0.3s ease; /* Transición suave */
+}
+
+.card-deck .card:hover .card-body {
+    opacity: 1; /* Mostrar al pasar el mouse */
+}
+
+
+.card-deck .card h5.card-title, .card-deck .card p.card-text {
+    color: #1e4072; /* Texto azul oscuro mediterráneo */
+}
+
+/* Estilos Pie de Página */
+footer {
+    background-color: #1e4072; /* Azul oscuro mediterráneo */
+    color: #ffffff; /* Texto blanco */
+    text-align: center;
+    padding: 20px 0;
+}

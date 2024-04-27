@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Germán de la Mora | Plantilla Web Pages</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/general.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos-menu.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Restaurante</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="menu.html">Menú</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="informacion-reservas.html">Información y Reservas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Sección del Menú -->
+    <div id="menu" class="container-fluid py-5" style="background-color: #f4f4f4;">
+        <div class="container">
+            <h2 class="text-center mb-4" style="color: #1e4072;">Nuestro Menú</h2>
+
+            <!-- Lista de Categorías de Platos -->
+            <ul class="nav nav-tabs justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link active" data-toggle="tab" href="#entradas">Entradas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#platos-principales">Platos Principales</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#postres">Postres</a>
+                </li>
+            </ul>
+
+            <!-- Contenido de las Categorías de Platos -->
+            <div class="tab-content mt-4">
+                <!-- Entradas -->
+                <div id="entradas" class="tab-pane fade show active">
+                    <h3 class="mb-3" style="color: #1e4072;">Entradas</h3>
+                    <div class="row">
+                        <div class="col-md-4 mb-4">
+                            <div class="card">
+                                <img src="img/ensalada-mediterranea.jpg" class="card-img-top" alt="Entrada 1">
+                                <div class="card-body">
+                                    <h5 class="card-title">Ensalada Mediterránea</h5>
+                                    <p class="card-text">Mezcla fresca de lechuga, tomate, pepino, aceitunas y queso
+                                        feta con vinagreta de aceite de oliva y limón.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <div class="card">
+                                <img src="img/croquetas-elle-gourmet-2-642c4d30dd044.jpg" class="card-img-top" alt="Entrada 2">
+                                <div class="card-body">
+                                    <h5 class="card-title">Croquetas de Jamón</h5>
+                                    <p class="card-text">Deliciosas croquetas caseras de jamón ibérico con un interior
+                                        cremoso y un exterior crujiente.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <div class="card">
+                                <img src="img/montaditosdejamonserranoFT-1.jpg" class="card-img-top" alt="Entrada 3">
+                                <div class="card-body">
+                                    <h5 class="card-title">Bruschettas</h5>
+                                    <p class="card-text">Tostadas de pan crujiente con tomate fresco, albahaca, ajo y
+                                        aceite de oliva virgen extra.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Platos Principales -->
+                <div id="platos-principales" class="tab-pane fade show active">
+                    <h3 class="mb-3" style="color: #1e4072;">Platos Principales</h3>
+                    <div class="row">
+                        <div class="col-md-4 mb-4">
+                            <div class="card">
+                                <img src="img/paella-valenciana-tradicional-1200x675.jpg" class="card-img-top" alt="Entrada 1">
+                                <div class="card-body">
+                                    <h5 class="card-title">Paella de Mariscos</h5>
+                                    <p class="card-text">Una deliciosa paella con arroz bomba, mejillones, langostinos, calamares y pimientos, cocinados en un caldo de pescado con azafrán y otras especias mediterráneas.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <div class="card">
+                                <img src="img/20220628-Moussaka-AmandaSuarez-48-hero-7ed4668845264c659574e07490d9ff5c.jpg" class="card-img-top" alt="Entrada 2">
+                                <div class="card-body">
+                                    <h5 class="card-title">Moussaka</h5>
+                                    <p class="card-text">Capas de berenjena asada, carne de cordero molida sazonada con hierbas mediterráneas, cubierta con una bechamel cremosa y gratinada al horno.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <div class="card">
+                                <img src="img/cazuela-de-pollo-1200x759.jpg" class="card-img-top" alt="Entrada 3">
+                                <div class="card-body">
+                                    <h5 class="card-title">Cazuela de Pollo al Limón</h5>
+                                    <p class="card-text">Trozos de pollo tierno cocidos en una salsa de limón, ajo, aceite de oliva, hierbas como el romero y el tomillo, acompañados de patatas y aceitunas.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Postres -->
+                <div id="postres" class="tab-pane fade show active">
+                    <h3 class="mb-3" style="color: #1e4072;">Postres</h3>
+                    <div class="row">
+                        <div class="col-md-4 mb-4">
+                            <div class="card">
+                                <img src="img/tiramisu-postre-italiano.jpg" class="card-img-top" alt="Entrada 1">
+                                <div class="card-body">
+                                    <h5 class="card-title">Tiramisú</h5>
+                                    <p class="card-text">Un clásico postre italiano con capas de bizcochos de soletilla empapados en café, crema de mascarpone, y espolvoreado con cacao en polvo.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <div class="card">
+                                <img src="img/maxresdefault.jpg" class="card-img-top" alt="Entrada 2">
+                                <div class="card-body">
+                                    <h5 class="card-title">Baklava</h5>
+                                    <p class="card-text"> Dulce tradicional hecho con capas de masa filo, nueces trituradas, almendras y pistachos, bañado en un almíbar aromatizado con agua de azahar o miel.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <div class="card">
+                                <img src="img/Helado de higos y nueces.jpg" class="card-img-top" alt="Entrada 3">
+                                <div class="card-body">
+                                    <h5 class="card-title">Helado de Higo con Miel y Nueces</h5>
+                                    <p class="card-text">Helado cremoso de higos frescos, endulzado con miel de abeja natural y mezclado con trozos de nueces tostadas.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Pie de Página -->
+    <footer class="bg-dark text-white mt-5 py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p><strong>Restaurante</strong></p>
+                    <p>Dirección: Calle Ejemplo, Ciudad, País</p>
+                    <p>Teléfono: +123 456 789</p>
+                </div>
+                <div class="col-md-6 text-right">
+                    <a href="#" class="text-white mx-2"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="text-white mx-2"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="text-white mx-2"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <script src="https://kit.fontawesome.com/c2d935188e.js" crossorigin="anonymous"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="js/general.js"></script>
+        <script src="js/index.js"></script>
+    </footer>
+</body>
+
+</html>
